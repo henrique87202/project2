@@ -35,7 +35,7 @@ app.config['suppress_callback_exceptions'] = True
 
 app.layout = html.Div([
     html.H1('Project 2 - Civil Building'),
-    html.Img(src=app.get_asset_url('IST_logo.png'), style= {'align':'right','height':'20%', 'width':'20%'}),
+    html.Img(src='IST_logo.png', style= {'height':'20%', 'width':'20%'}),
     html.H6('Developed by Henrique Petrucci, 87202', style= {'text-align':'right','background-color': 'lavender', 'color': 'green'}),
     dcc.Tabs(id='tabs', value='tab-1', children=[
         dcc.Tab(label='Raw Data', value='tab-1'),
