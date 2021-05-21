@@ -27,6 +27,7 @@ data_clust = pd.read_csv('data_clust.csv')
 data_exp = pd.read_csv('data_exp.csv')
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server=app.server
 app.config['suppress_callback_exceptions'] = True
 
 
