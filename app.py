@@ -17,6 +17,7 @@ import plotly.express as px
 import plotly.io as io
 from sklearn.cluster import KMeans
 import seaborn as sb
+import gunicorn
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
